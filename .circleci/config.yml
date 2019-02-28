@@ -26,7 +26,7 @@ jobs:
     docker:
       - image: google/cloud-sdk
     environment:
-      - PROJECT_NAME: "My First Project"
+      - PROJECT_NAME: "hacknightvol4project"
       - GOOGLE_PROJECT_ID: "skilled-loader-233111"
       - GOOGLE_COMPUTE_ZONE: "asia-east1-a"
       - GOOGLE_CLUSTER_NAME: "hacknightvol4-cluster"
