@@ -10,7 +10,7 @@ const buildDate = process.env.APP_BUILD_DATE || new Date().toISOString()
 
 app.get('/', (req, res) => {
     const welcome = myLib.helloWorld()
-    const text = `${welcome}! CommitID ${commitRef} Үүсгэгдсэн хугацаа ${buildDate}`
+    const text = `${welcome}! уу ! CommitID ${commitRef} Үүсгэгдсэн хугацаа ${buildDate}`
     res.send(text)
 })
 
